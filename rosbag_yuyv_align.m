@@ -1,4 +1,8 @@
 function rosbag_yuyv_align(filename)
+    % This function opens a pre-recorded *.bag file aligns it to the ...
+    %color stream and displays the color stream, depth stream, and the overlap. 
+    % The output is saved as a *.mp4 to be viewed later.
+
     % Validate input
     validateattributes(filename, {'char','string'}, {'scalartext', 'nonempty'}, '', 'filename', 1);
     % Create display
