@@ -14,9 +14,11 @@ This function opens a pre-recorded *.bag file aligns it to the color stream and 
 ```matlab
 rosbag_yuyv_align(filename)
 ```
+![image](https://github.com/chhayank-sri/Bag_data_extraction/assets/117337144/e29797c2-9e3d-4236-b206-a1d6154f4d1a)
+
 
 #### yuyv2rgb_optimized_mex.mexw64
 This function is used to convert 32bit YUYV data from Intel realsense camera to RGB image
 ```matlab
-image = yuyv2rgb_optimized(color_data,frame.height,frame.width)
+image = yuyv2rgb_optimized(color_frame.get_data(),color_frame.height,color_frame.width)
 ```
