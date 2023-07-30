@@ -1,5 +1,7 @@
-# Bag_data_extraction
-A Matlab routine to extract data from *.bag file created by Intel realsense camera.
+# Bag_data_extraction  																																																				
+A Matlab routine to extract data from *.bag file created by Intel realsense camera. 
+
+[![View Bag_data_extraction on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/132912-bag_data_extraction)
 
 ### Usage 
 #### extract_info.m
